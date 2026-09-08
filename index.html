@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portafolio de Erik Graba, fotógrafo y videógrafo en Santa Cruz, Bolivia."
+    />
+    <title>Erik Graba — Fotografía y video</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#trabajo">Saltar al portafolio</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Erik Graba, inicio">
+        <span class="brand-mark">EG</span>
+        <span>ERIK GRABA</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#trabajo" data-i18n="navWork">Trabajo</a>
+        <a href="#servicios" data-i18n="navServices">Servicios</a>
+        <a href="#sobre" data-i18n="navAbout">Sobre Erik</a>
+        <a
+          class="nav-contact"
+          href="https://www.instagram.com/erikgraba/"
+          target="_blank"
+          rel="noreferrer"
+          >Instagram</a
+        >
+        <button class="language-toggle" type="button" aria-label="Cambiar idioma">
+          <span class="language-active">ES</span><span>/</span><span>EN</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="location">Santa Cruz, Bolivia</p>
+          <h1>ERIK<br />GRABA</h1>
+          <p class="hero-role" data-i18n="role">Fotografía · Video · Dirección visual</p>
+          <p class="hero-intro" data-i18n="intro">
+            Contenido visual para marcas, personas y proyectos en movimiento.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#trabajo" data-i18n="viewWork"
+              >Ver trabajo</a
+            >
+            <a
+              class="button button-secondary"
+              href="https://www.instagram.com/erikgraba/"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="contact"
+              >Contactar</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <span class="hero-monogram">EG</span>
+          <div class="focus-ring"></div>
+          <p>PHOTOGRAPHY / FILM</p>
+        </div>
+
+        <div class="hero-index" aria-hidden="true">
+          <span>01</span>
+          <span>SANTA CRUZ — BOLIVIA</span>
+        </div>
+      </section>
+
+      <section class="work-section section" id="trabajo">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Portfolio / 2026</p>
+            <h2 data-i18n="selectedWork">Trabajo seleccionado</h2>
+          </div>
+          <p class="section-note" data-i18n="workNote">
+            Esta versión está preparada para incorporar la selección final de fotografías y videos.
+          </p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar proyectos">
+          <button class="filter is-active" type="button" data-filter="all" data-i18n="all">Todo</button>
+          <button class="filter" type="button" data-filter="automotive" data-i18n="automotive">Automotriz</button>
+          <button class="filter" type="button" data-filter="portrait" data-i18n="portrait">Retrato</button>
+          <button class="filter" type="button" data-filter="product" data-i18n="product">Producto</button>
+          <button class="filter" type="button" data-filter="events" data-i18n="events">Eventos</button>
+          <button class="filter" type="button" data-filter="video">Video</button>
+        </div>
+
+        <div class="portfolio-grid" aria-live="polite">
+          <article class="project project-wide tone-red" data-category="automotive">
+            <div class="project-number">01</div>
+            <div class="project-copy">
+              <p data-i18n="automotive">Automotriz</p>
+              <h3 data-i18n="projectPending">Proyecto por seleccionar</h3>
+            </div>
+          </article>
+          <article class="project tone-steel" data-category="portrait">
+            <div class="project-number">02</div>
+            <div class="project-copy">
+              <p data-i18n="portrait">Retrato</p>
+              <h3 data-i18n="projectPending">Proyecto por seleccionar</h3>
+            </div>
+          </article>
+          <article class="project tone-black" data-category="product">
+            <div class="project-number">03</div>
+            <div class="project-copy">
+              <p data-i18n="product">Producto</p>
+              <h3 data-i18n="projectPending">Proyecto por seleccionar</h3>
+            </div>
+          </article>
+          <article class="project tone-silver" data-category="events">
+            <div class="project-number">04</div>
+            <div class="project-copy">
+              <p data-i18n="events">Eventos</p>
+              <h3 data-i18n="projectPending">Proyecto por seleccionar</h3>
+            </div>
+          </article>
+          <article class="project project-wide tone-motion" data-category="video">
+            <div class="project-number">05</div>
+            <div class="play-mark">▶</div>
+            <div class="project-copy">
+              <p>Video / Reels</p>
+              <h3 data-i18n="videoPending">Video por seleccionar</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="services-section section" id="servicios">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Capabilities</p>
+            <h2 data-i18n="services">Servicios</h2>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article>
+            <span>01</span>
+            <h3 data-i18n="photoTitle">Fotografía</h3>
+            <p data-i18n="photoText">Automotriz, retrato, producto, lifestyle y cobertura de eventos.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3 data-i18n="videoTitle">Video</h3>
+            <p data-i18n="videoText">Piezas comerciales, reels verticales y contenido para redes sociales.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3 data-i18n="brandTitle">Contenido para marcas</h3>
+            <p data-i18n="brandText">Concepto, producción visual y entregables adaptados a cada campaña.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section section" id="sobre">
+        <div class="about-number" aria-hidden="true">SCZ</div>
+        <div class="about-copy">
+          <p class="eyebrow" data-i18n="aboutEyebrow">Sobre Erik</p>
+          <h2 data-i18n="aboutTitle">Fotógrafo y videógrafo con base en Santa Cruz.</h2>
+          <p data-i18n="aboutText">
+            Erik crea contenido visual para marcas, personas y redes sociales. Su trabajo combina precisión técnica, movimiento y una mirada comercial contemporánea.
+          </p>
+          <p class="availability" data-i18n="availability">Disponible para proyectos en Santa Cruz y colaboraciones remotas desde Bolivia.</p>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contacto">
+        <p class="eyebrow" data-i18n="contactEyebrow">Contacto directo</p>
+        <h2 data-i18n="contactTitle">Conversemos sobre tu próximo proyecto.</h2>
+        <a
+          class="instagram-link"
+          href="https://www.instagram.com/erikgraba/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>@erikgraba</span><span aria-hidden="true">↗</span>
+        </a>
+        <p class="contact-note" data-i18n="contactNote">
+          Próximamente añadiremos el WhatsApp y correo profesional de Erik.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Erik Graba</span>
+      <span>Santa Cruz, Bolivia</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
